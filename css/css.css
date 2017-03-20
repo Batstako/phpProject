@@ -1,0 +1,29 @@
+#wrapper {
+	width: 960px;
+	margin:20px auto;
+}
+#master-head nav ul:after {
+	clear: both;
+	display: block;
+	content: "";
+	height: 0;
+}
+#master-head nav ul li {
+	float:left;
+	list-style: none;
+}
+#master-head nav ul li a {
+	color:#fff;
+	background: #003300;
+	padding: 10px;
+	display: inline-block;
+	text-decoration: none;
+	margin-left: 10px;
+}
+#master-head nav ul li a.clicked {
+	background: #000033;
+	color:yellow;
+}
+input {
+	display: block;
+}
